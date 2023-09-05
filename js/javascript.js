@@ -19,7 +19,7 @@ window.onscroll = () => { // this is a neat way to add an event listener, so bas
     
     sections.forEach(sec => {
         let top = window.scrollY; // it shows you how much you scrolled
-        let offset = sec.offsetTop - 100; // This shows you the distance between the top edge of the element and its ancestor
+        let offset = sec.offsetTop - 200; // This shows you the distance between the top edge of the element and its ancestor
         let height = sec.offsetHeight; // the height of the element including everything like borders and padding
         let id = sec.getAttribute('id');
 
