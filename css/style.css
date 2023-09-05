@@ -40,6 +40,7 @@ body {
     align-items: center; 
     z-index: 100; /* this will show on top of anything else */
     transition: .3s;
+
 }
 
 .header.sticky {
@@ -268,6 +269,7 @@ section {
     gap: 2rem;
     background: var(--second-bg-color);
     padding-bottom: 6rem;
+    overflow-x: hidden; 
 }
 
 .heading {
@@ -314,7 +316,6 @@ span {
 
 .about-content {
     text-align: center;
-    width: 500px;
 }
 
 .about-content h3 {
